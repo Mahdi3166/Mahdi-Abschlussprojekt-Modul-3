@@ -1,153 +1,165 @@
 from PyQt6.QtWidgets import (
     QWidget, QLabel, QLineEdit, QVBoxLayout, QHBoxLayout,
-    QPushButton, QComboBox, QMessageBox
+    QPushButton, QMessageBox, QComboBox, QFormLayout, QApplication, QMainWindow
 )
-from PyQt6.QtCore import Qt
-from database import DatabaseHandler
-
+from PyQt6.QtCore import QDateTime, Qt
+import datetime
 
 class EditADUserWindow(QWidget):
-    def __init__(self, title, user_id, db_handler):
+    def __init__(self, caption, userid, db_handler):
         super().__init__()
-        self.setWindowTitle(title)
-        self.user_id = user_id
+        self.setWindowTitle(caption)
+        self.userid = userid
         self.db_handler = db_handler
 
-        main_layout = QVBoxLayout(self)
-
-        # Formfelder
+        # Fields
         self.firstname = QLineEdit()
+        self.firstname.setReadOnly(True)
         self.lastname = QLineEdit()
+        self.lastname.setReadOnly(True)
         self.phone = QLineEdit()
         self.department = QLineEdit()
         self.street = QLineEdit()
-        self.zipcode = QLineEdit()
+        self.postalcode = QLineEdit()
         self.city = QLineEdit()
+        self.kuerzel = QComboBox()  # NEU: Kürzel jetzt als ComboBox
+
         self.status = QComboBox()
         self.course = QComboBox()
         self.created_label = QLabel()
         self.modified_label = QLabel()
 
-        # Einheitliche Breite für Felder
-        self._set_fixed_sizes()
+        # Form Layout
+        form_layout = QFormLayout()
+        form_layout.addRow("Vorname:", self.firstname)
+        form_layout.addRow("Nachname:", self.lastname)
+        form_layout.addRow("Telefon:", self.phone)
+        form_layout.addRow("Abteilung:", self.department)
+        form_layout.addRow("Straße:", self.street)
+        form_layout.addRow("PLZ:", self.postalcode)
+        form_layout.addRow("Ort:", self.city)
+        form_layout.addRow("Kürzel:", self.kuerzel)
+        form_layout.addRow("Status:", self.status)
+        form_layout.addRow("Kurs:", self.course)
+        form_layout.addRow("Erstellt:", self.created_label)
+        form_layout.addRow("Letzte Änderung:", self.modified_label)
 
-        # Zeilenaufbau
-        main_layout.addLayout(self._row("Vorname:", self.firstname))
-        main_layout.addLayout(self._row("Nachname:", self.lastname))
-        main_layout.addLayout(self._row("Telefon:", self.phone))
-        main_layout.addLayout(self._row("Abteilung:", self.department))
-        main_layout.addLayout(self._row("Straße:", self.street))
-        main_layout.addLayout(self._row("PLZ:", self.zipcode))
-        main_layout.addLayout(self._row("Ort:", self.city))
-        main_layout.addLayout(self._row("Status:", self.status))
-        main_layout.addLayout(self._row("Kurs:", self.course))
-        main_layout.addLayout(self._row("erstellt:", self.created_label))
-        main_layout.addLayout(self._row("letzte Änderung:", self.modified_label))
-
-        # Buttons nebeneinander
+        # Buttons
         button_layout = QHBoxLayout()
-        self.ok_btn = QPushButton("OK")
-        self.cancel_btn = QPushButton("Abbrechen")
-        self.ok_btn.clicked.connect(self.save_changes)
-        self.cancel_btn.clicked.connect(self.close)
-        button_layout.addStretch()
-        button_layout.addWidget(self.ok_btn)
-        button_layout.addWidget(self.cancel_btn)
-        main_layout.addLayout(button_layout)
+        ok_button = QPushButton("OK")
+        cancel_button = QPushButton("Abbrechen")
+        ok_button.clicked.connect(self.save_changes)
+        cancel_button.clicked.connect(self.close)
+        button_layout.addWidget(ok_button)
+        button_layout.addWidget(cancel_button)
 
+        # Main Layout
+        main_layout = QVBoxLayout(self)
+        main_layout.addLayout(form_layout)
+        main_layout.addLayout(button_layout)
         self.setLayout(main_layout)
+
         self.load_user_data()
 
-    def _set_fixed_sizes(self):
-        self.label_width = 100
-        self.input_width = 200
-
-        # Einheitliche Breite für alle Eingabefelder
-        for widget in [
-            self.firstname, self.lastname, self.phone, self.department,
-            self.street, self.zipcode, self.city, self.status, self.course
-        ]:
-            widget.setFixedWidth(self.input_width)
-
-    def _row(self, label_text, widget):
-        row = QHBoxLayout()
-        label = QLabel(label_text)
-        label.setFixedWidth(self.label_width)
-        label.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)  # linksbündig
-        row.addWidget(label)
-        row.addWidget(widget)
-        return row
+    def to_local_time(self, dt):
+        if isinstance(dt, datetime.datetime):
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=datetime.timezone.utc)
+            return dt.astimezone().strftime("%Y-%m-%d %H:%M:%S")
+        return str(dt)
 
     def load_user_data(self):
         query = f"""
-            SELECT firstname, lastname, phone, department, street, postalcode, city,
+            SELECT firstname, lastname, phone, department, street, postalcode, city, city_code,
                    status_id_fk, ou_id_fk, created, modified
-            FROM aduser WHERE id_pk = {self.user_id}
+            FROM aduser
+            WHERE id_pk = {self.userid}
         """
-        result = self.db_handler.get_data(query)
-        if not result:
-            QMessageBox.critical(self, "Fehler", "Benutzer nicht gefunden.")
+        try:
+            result = self.db_handler.get_data(query)
+            if result:
+                (
+                    firstname, lastname, phone, department, street, postalcode, city, city_code,
+                    status_id, ou_id, created, modified
+                ) = result[0]
+
+                self.firstname.setText(firstname)
+                self.lastname.setText(lastname)
+                self.phone.setText(phone)
+                self.department.setText(department)
+                self.street.setText(street)
+                self.postalcode.setText(postalcode)
+                self.city.setText(city)
+
+                self.created_label.setText(self.to_local_time(created))
+                self.modified_label.setText(self.to_local_time(modified))
+
+                # Kürzel ComboBox füllen mit allen vorhandenen city_code
+                city_codes = self.db_handler.get_data("SELECT DISTINCT city_code FROM aduser WHERE city_code IS NOT NULL")
+                for (code,) in city_codes:
+                    if code:
+                        self.kuerzel.addItem(code)
+
+                # Aktuelles Kürzel setzen
+                index = self.kuerzel.findText(city_code)
+                if index >= 0:
+                    self.kuerzel.setCurrentIndex(index)
+
+                # Status ComboBox
+                statuses = self.db_handler.get_data("SELECT id_pk, bezeichnung FROM aduser_status")
+                for sid, name in statuses:
+                    self.status.addItem(name, sid)
+                index = self.status.findData(status_id)
+                if index >= 0:
+                    self.status.setCurrentIndex(index)
+
+                # Kurs ComboBox
+                courses = self.db_handler.get_data("SELECT id_pk, name FROM adou")
+                for cid, name in courses:
+                    self.course.addItem(name, cid)
+                index = self.course.findData(ou_id)
+                if index >= 0:
+                    self.course.setCurrentIndex(index)
+
+            else:
+                QMessageBox.warning(self, "Fehler", "Benutzer nicht gefunden.")
+                self.close()
+
+        except Exception as e:
+            QMessageBox.critical(self, "Fehler", f"Fehler beim Laden:\n{e}")
             self.close()
-            return
-
-        (
-            firstname, lastname, phone, department, street, plz, city,
-            status_id, ou_id, created, modified
-        ) = result[0]
-
-        self.firstname.setText(firstname)
-        self.lastname.setText(lastname)
-        self.phone.setText(phone)
-        self.department.setText(department)
-        self.street.setText(street)
-        self.zipcode.setText(plz)
-        self.city.setText(city)
-        self.created_label.setText(str(created))
-        self.modified_label.setText(str(modified))
-
-        # Status laden
-        self.status.clear()
-        status_list = self.db_handler.get_data("SELECT id_pk, bezeichnung FROM aduser_status")
-        for id_, name in status_list:
-            self.status.addItem(name, id_)
-            if id_ == status_id:
-                self.status.setCurrentText(name)
-
-        # Kurs laden
-        self.course.clear()
-        course_list = self.db_handler.get_data("SELECT id_pk, name FROM adou")
-        for id_, name in course_list:
-            self.course.addItem(name, id_)
-            if id_ == ou_id:
-                self.course.setCurrentText(name)
 
     def save_changes(self):
         try:
             query = """
-                UPDATE aduser SET firstname=%s, lastname=%s, phone=%s, department=%s,
-                    street=%s, postalcode=%s, city=%s,
+                UPDATE aduser
+                SET phone=%s, department=%s, street=%s, postalcode=%s, city=%s, city_code=%s,
                     status_id_fk=%s, ou_id_fk=%s, modified=NOW()
                 WHERE id_pk=%s
             """
             values = (
-                self.firstname.text(),
-                self.lastname.text(),
                 self.phone.text(),
                 self.department.text(),
                 self.street.text(),
-                self.zipcode.text(),
+                self.postalcode.text(),
                 self.city.text(),
+                self.kuerzel.currentText(),  # NEU: Kürzel aus ComboBox speichern
                 self.status.currentData(),
                 self.course.currentData(),
-                self.user_id
+                self.userid,
             )
             self.db_handler.change_data(query, values)
-            QMessageBox.information(self, "Erfolg", "Daten erfolgreich gespeichert.")
-            if self.parent():
-                try:
-                    self.parent().load_ad_users()
-                except:
-                    pass
+
+            QMessageBox.information(self, "Erfolg", "Benutzerdaten gespeichert.")
+
+            # MainWindow aktualisieren
+            for widget in QApplication.topLevelWidgets():
+                if isinstance(widget, QMainWindow):
+                    if hasattr(widget, 'load_ad_users'):
+                        widget.load_ad_users()
+                    break
+
             self.close()
+
         except Exception as e:
             QMessageBox.critical(self, "Fehler", f"Fehler beim Speichern:\n{e}")
