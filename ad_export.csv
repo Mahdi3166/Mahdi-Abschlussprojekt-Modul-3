@@ -1,0 +1,374 @@
+user_id,Vorname,Nachname,Telefon,Abteilung,Strasse,Ort,Kürzel,PLZ,Status_code,status,Kurs_Code,Kurs,Kursbezeichnung,Erstellt am,Verändert am
+1122,Athanasios,Weihmann,(00298) 57088,Teilnehmende,Jacobstraße 85,Hamburg,HH,95579,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:01
+1123,Jana,Bohlander,(01651) 458255,Teilnehmende,Peukertring 6,Hamburg,HH,30791,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:01
+1124,Meral,Stiebitz,+49(0) 561390982,Teilnehmende,Barkholzstraße 3/6,Hamburg,HH,96524,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:01
+1125,Georgine,Plath,+49 (0) 9673 437973,Teilnehmende,Nuran-Höfig-Ring 439,Hamburg,HH,07406,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:01
+1126,Karina,Mende,+49(0)1228 553462,Teilnehmende,Mentzelallee 25,Nürnberg,N,72568,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1127,Margaret,Adler,(02604) 57103,Teilnehmende,Anne-Rose-Hettner-Ring 059,Hamburg,HH,18073,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:01
+1128,Mechthilde,Hermann,(03881) 68272,Teilnehmende,Segebahnweg 3/0,Hamburg,HH,60791,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:01
+1129,Adem,Hahn,06225 17892,Teilnehmende,Mülichenplatz 084,Hamburg,HH,56428,2,inaktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:01
+1130,Bert,Zänker,01181 79650,Teilnehmende,Dajana-Aumann-Platz 585,Hamburg,HH,09571,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:01
+1132,Ivan,Seip,02226 302516,Teilnehmende,Mendegasse 9/6,Hamburg,HH,97794,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:01
+1133,Hildegunde,Bachmann,+49(0)8269 56529,Teilnehmende,Schäferstraße 8/8,Hamburg,HH,04796,2,inaktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:01
+1134,Dimitrios,Renner,(02775) 36890,Teilnehmende,Valentina-Schuster-Platz 2,Hamburg,HH,78388,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:01
+1135,Eberhard,Rosenow,03476 555556,Teilnehmende,Junkenweg 56,Hamburg,HH,54494,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:01
+1136,Cord,Paffrath,+49(0) 858963716,Teilnehmende,Ortmannstraße 473,Hamburg,HH,92983,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:01
+1137,Tomas,Pruschke,(08715) 012167,Teilnehmende,Junkenstr. 88,Hamburg,HH,30613,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1138,Madeleine,Jüttner,09127 955767,Teilnehmende,Niko-Hermighausen-Platz 432,Hamburg,HH,00648,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1139,Ingeburg,Gute,+49(0)7571764245,Teilnehmende,Rosenowallee 329,Hamburg,HH,44326,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1140,Lidia,Etzold,(05634) 796827,Teilnehmende,Valentin-Mentzel-Ring 1/2,Düsseldorf,D,66100,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1141,Serpil,Müller,+49 (0) 2952 133412,Teilnehmende,Hans-Helmut-Rust-Platz 23,Düsseldorf,D,60237,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1142,Simon,Hecker,+49 (0) 1081 430201,Teilnehmende,Hans-Karl-Killer-Weg 83,Düsseldorf,D,32223,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1143,Cäcilie,Schönland,0897875179,Teilnehmende,Jungferallee 5/4,Düsseldorf,D,96399,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1144,Veronique,Jacobi Jäckel,07379 22487,Teilnehmende,Kunigunda-Dörr-Gasse 1/4,Düsseldorf,D,34326,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1145,Sergej,Caspar,00633041221,Teilnehmende,Ira-Söding-Allee 64,Düsseldorf,D,81504,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1146,Jürgen,Preiß,+49 (0) 7315 509540,Teilnehmende,Judith-Löwer-Straße 2/1,Düsseldorf,D,01867,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1147,Nadine,Losekann,(02551) 18487,Teilnehmende,Marisa-Renner-Straße 9/4,Düsseldorf,D,41372,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1148,Clemens,Hendriks,+49 (0) 8464 932098,Teilnehmende,Wenke-Keudel-Platz 836,Düsseldorf,D,20761,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1149,Mattias,Kensy,04002 28805,Teilnehmende,Austermühlestraße 8/0,Düsseldorf,D,04229,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1150,Gottlob,Karge,07286713738,Teilnehmende,Carstenallee 04,Düsseldorf,D,40318,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1151,Hakan,Ruppersberger,09287142060,Teilnehmende,Norma-Ehlert-Allee 0,Düsseldorf,D,94555,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1152,Anni,Süßebier,03713654725,Teilnehmende,Herrmann-Meyer-Straße 874,Düsseldorf,D,16897,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1153,Annemie,Hofmann,+49(0)4575 37341,Teilnehmende,Rolf-Schäfer-Weg 105,Düsseldorf,D,82149,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1154,Diana,Putz,+49 (0) 7028 223590,Teilnehmende,Dragica-Henk-Straße 5/7,Düsseldorf,D,57142,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1155,Arnd,Pölitz,06717405749,Teilnehmende,Döringstraße 55,Düsseldorf,D,90580,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1156,Felizitas,Mude,+49(0)1280133973,Teilnehmende,Hertrampfring 5,Düsseldorf,D,35244,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1157,Irene,Möchlichen,+49(0) 794548899,Teilnehmende,Krausstr. 8/5,Düsseldorf,D,93140,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1158,Ricardo,Heinrich,+49(0)2476 098459,Teilnehmende,Heuserallee 156,Düsseldorf,D,93536,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1159,Elwira,Lorch,+49(0) 681108789,Teilnehmende,Georgine-Junitz-Weg 466,Düsseldorf,D,24211,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1160,Melita,Stahr,00015 97544,Teilnehmende,Klaus Dieter-Holzapfel-Platz 9,Berlin,B,84980,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1161,Catrin,Mülichen,+49(0) 301047048,Teilnehmende,Nikolai-Scholz-Platz 682,Berlin,B,23948,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1162,Patric,Hamann,+49 (0) 7759 969454,Teilnehmende,Claudio-Jopich-Platz 83,Berlin,B,94964,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1163,Walburga,Kraus,+49(0)0317 599361,Teilnehmende,Kruschwitzgasse 9,Berlin,B,64874,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1164,Rouven,Wirth,03928 486254,Teilnehmende,Wanda-Drewes-Straße 89,Berlin,B,02577,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1165,Arnim,Keudel,+49(0)9420 34611,Teilnehmende,Joachim-Rose-Gasse 6/9,Berlin,B,27883,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1166,Simon,Siering,03516 219191,Teilnehmende,Heinz-Günther-Scholl-Platz 4,Berlin,B,13972,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1167,Carin,Lindau,07888 46025,Teilnehmende,Sara-Eberhardt-Ring 782,Berlin,B,94900,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1168,Annika,Killer,0056990526,Teilnehmende,Kostolzinstr. 7,Berlin,B,94489,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1169,Adolf,Rörricht,06356 88150,Teilnehmende,Schinkeplatz 0,Berlin,B,39175,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:02
+1170,James,Henschel,+49(0)9501004270,Teilnehmende,Lindauweg 5,Berlin,B,36285,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1171,Hildegard,Gehringer,06558 99718,Teilnehmende,Seidelplatz 31,Berlin,B,96616,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:02
+1172,Meike,Blümel,(02288) 21300,Teilnehmende,Laurenz-Fritsch-Allee 80,Berlin,B,66848,2,inaktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1173,Tadeusz,Henschel,07320983779,Teilnehmende,Ingrid-Bachmann-Platz 060,Berlin,B,44668,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1174,Karl Heinz,Hofmann,+49(0) 382185171,Teilnehmende,Karl Heinz-Klapp-Allee 7/2,Freiburg,FR,31032,2,inaktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:10
+1175,Hendrik,Wähner,06238046140,Teilnehmende,Losekannplatz 880,Berlin,B,29088,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1176,Julian,Höfig,+49(0)8682 63060,Teilnehmende,Pieperallee 1/1,Berlin,B,69502,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1177,Alwina,Schleich,04574 728770,Teilnehmende,Karlheinz-Mielcarek-Gasse 3,Berlin,B,35872,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1178,Lilli,Kaul,04306476858,Teilnehmende,Inna-Thies-Weg 53,Berlin,B,74984,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1179,Elif,Süßebier,00849265407,Teilnehmende,Eckbauerring 6/2,Berlin,B,37118,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1180,Luis,Kühnert,00283 97864,Teilnehmende,Reisinggasse 781,Frankfurt,F,31886,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1181,Igor,Etzold,(08432) 702870,Teilnehmende,Weißgasse 77,Frankfurt,F,07159,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1182,Liane,Heintze,+49(0)7088 31723,Teilnehmende,Wernerstr. 9,Frankfurt,F,88613,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1183,Carl,Eckbauer,+49 (0) 0183 161596,Teilnehmende,Drubplatz 8,Frankfurt,F,09141,2,inaktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1184,Almuth,Börner,+49(0)1687 22369,Teilnehmende,Kühnertallee 7/3,Frankfurt,F,56516,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1185,Sylvana,Stiebitz,+49 (0) 0890 990833,Teilnehmende,Carstenstr. 256,Frankfurt,F,65307,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1186,Albin,Vogt,(04664) 81399,Teilnehmende,Belinda-Mangold-Straße 28,Frankfurt,F,48014,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1187,Marek,Werner,03472266426,Teilnehmende,Täschestr. 4/7,Frankfurt,F,28279,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1188,Nadja,Grein Groth,08594117736,Teilnehmende,Anka-Eimer-Gasse 4/8,Frankfurt,F,93146,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1189,Matthias,Lachmann,(07784) 93827,Teilnehmende,Hans-Albert-Ernst-Ring 918,Frankfurt,F,56935,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1190,Toralf,Reuter,+49(0)5468 600985,Teilnehmende,Ruppertgasse 8/2,Frankfurt,F,66415,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1191,Kemal,Trüb,(07555) 12362,Teilnehmende,Iris-Pechel-Allee 477,Frankfurt,F,90609,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1192,Adelbert,Ebert,07172 23267,Teilnehmende,Dennis-Rörricht-Weg 086,Frankfurt,F,79825,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1193,Meral,Bolnbach,06222 23874,Teilnehmende,Barthplatz 582,Frankfurt,F,81613,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1194,Pietro,Margraf,(07044) 05917,Teilnehmende,Röhrdanzweg 411,Frankfurt,F,80699,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1195,Guenter,Jopich,(08558) 66970,Teilnehmende,Gehringerplatz 76,Frankfurt,F,93966,2,inaktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1196,Andy,Fiebig,+49(0)8620 659239,Teilnehmende,Wielochstraße 6,Frankfurt,F,19142,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1197,Vittorio,Stiebitz,(05427) 521467,Teilnehmende,Theresia-Otto-Gasse 269,Frankfurt,F,26069,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1198,Bernhard,Ernst,+49(0)5880008742,Teilnehmende,Karl-Friedrich-Klapp-Allee 453,Frankfurt,F,68609,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:03
+1199,Matthias,Bähr,+49(0)2668 791666,Teilnehmende,Else-Stolze-Ring 50,Frankfurt,F,05716,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1200,Hans-Joachim,Fliegner,+49 (0) 6989 014256,Teilnehmende,Schönlandweg 04,Stuttgart,S,02932,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:03
+1201,Sylwia,Rädel,(04242) 939388,Teilnehmende,Isabel-Mans-Allee 97,Stuttgart,S,45866,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1202,Justus,Dippel,05981 83588,Teilnehmende,Hans-Willi-Weimer-Weg 8/4,Stuttgart,S,72139,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1203,Saban,Warmer,(07626) 75248,Teilnehmende,Heserweg 191,Stuttgart,S,85511,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1204,Inken,Beckmann,(04687) 191820,Teilnehmende,Gutestraße 5/7,Stuttgart,S,14731,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1205,Zeljko,Geisler,02661 51008,Teilnehmende,Nadin-Sölzer-Platz 961,Stuttgart,S,19573,2,inaktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1206,Louis,Ritter,05312 45732,Teilnehmende,Saskia-Ullrich-Straße 05,Stuttgart,S,63287,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1207,Brunhilde,Werner,01997 36223,Teilnehmende,Jaqueline-Davids-Gasse 55,Stuttgart,S,22413,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1208,Urszula,Mies,03142386430,Teilnehmende,Wencke-Kobelt-Gasse 5,Stuttgart,S,49830,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1209,Käthi,Gerlach,+49 (0) 6100 379912,Teilnehmende,Beierweg 2/6,Stuttgart,S,59520,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1210,Christos,Wulf,+49 (0) 5833 126506,Teilnehmende,Vito-Ladeck-Platz 5/1,Stuttgart,S,67214,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1211,Pius,Seifert,01623878951,Teilnehmende,Neureutherweg 9/1,Stuttgart,S,24654,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1212,Pascale,Schüler,05112357564,Teilnehmende,Krebsallee 505,Stuttgart,S,14951,2,inaktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1213,Anica,Rädel,+49(0) 259649622,Teilnehmende,Ehlertstraße 62,Stuttgart,S,29036,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1214,Bodo,Wernecke,+49(0)4758 641353,Teilnehmende,Kabusplatz 62,Stuttgart,S,12849,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1215,Ira,Roht,02852 41029,Teilnehmende,Sibylle-Oderwald-Platz 4/3,Stuttgart,S,43952,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1216,Paulo,Dehmel,(07727) 87641,Teilnehmende,Gerda-Mentzel-Gasse 484,Stuttgart,S,63478,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1217,Arzu,Winkler,+49(0) 985413826,Teilnehmende,Ortwin-Schmidtke-Ring 68,Stuttgart,S,24926,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1218,Luzia,Pechel,04197306764,Teilnehmende,Plathstr. 8/0,Stuttgart,S,87394,2,inaktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1219,Hanny,Barth,+49 (0) 7702 064733,Teilnehmende,Kösterring 690,Stuttgart,S,64098,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1220,Katarzyna,Hänel,+49(0) 658164596,Teilnehmende,Haeringstr. 9/6,Karlsruhe,KA,68029,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:13
+1221,Hans-Gerhard,Knappe,+49(0)2352 00763,Teilnehmende,Katalin-Zirme-Ring 360,München,M,69587,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1222,Ron,Thies,+49(0)2670 542844,Teilnehmende,Janus-Sager-Ring 194,München,M,77702,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1223,Karl-Hermann,Krein,07386790440,Teilnehmende,Schusterstr. 09,München,M,61394,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1224,Rosemarie,Kobelt,0493432627,Teilnehmende,Renato-Seip-Allee 321,München,M,31259,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1225,Madeleine,Baum,+49(0) 095298026,Teilnehmende,Putzring 611,München,M,88965,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1226,Hanny,Süßebier,+49(0)7136189572,Teilnehmende,Ayse-Killer-Gasse 88,München,M,23586,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1227,Katerina,Drub,+49(0)9524 25149,Teilnehmende,Ilija-Karge-Platz 00,Dortmund,DO,60006,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:10
+1228,Alfonso,Gierschner,(05009) 39307,Teilnehmende,Margit-Weinhage-Allee 9/6,München,M,87056,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1229,Alf,Hellwig,0673456580,Teilnehmende,Jadwiga-Fliegner-Gasse 8/4,München,M,00839,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:04
+1230,Heinz-Werner,Kuhl,02228 887361,Teilnehmende,Jungferallee 25,München,M,97825,2,inaktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:04
+1231,Margarethe,Schomber,(00296) 384327,Teilnehmende,Ewald-Loos-Weg 77,München,M,04481,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:05
+1232,Gino,Gute,+49(0)8057945633,Teilnehmende,Sieglinde-Paffrath-Weg 4,München,M,72672,2,inaktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:05
+1233,Tobias,Bien,0018714169,Teilnehmende,Trommlerring 86,München,M,50807,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:05
+1234,Margit,Kohl,00712184142,Teilnehmende,Hesergasse 24,München,M,43984,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:05
+1235,Sybilla,Dowerg,06915 40791,Teilnehmende,Norman-Killer-Weg 945,München,M,32185,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:05
+1236,Jens,Stumpf,07760033433,Teilnehmende,Gunpfstr. 5/9,München,M,17315,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:05
+1237,Uwe,Kitzmann,05470 783912,Teilnehmende,Ehlertstr. 782,München,M,33541,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:05
+1238,Hans-Josef,Hesse,+49 (0) 4092 272088,Teilnehmende,Hannes-Holt-Gasse 723,München,M,11362,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:05
+1239,Gerald,Scholl,(06321) 110438,Teilnehmende,Binnergasse 79,München,M,72183,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1240,Luis,Schacht,06191 747403,Teilnehmende,Justina-Heidrich-Platz 52,Nürnberg,N,85253,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1241,Klaus-Dieter,Ring,09665 86187,Teilnehmende,Bruderplatz 32,Nürnberg,N,21851,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1242,Willi,Koch,(06735) 341349,Teilnehmende,Jerzy-Döring-Ring 7,Nürnberg,N,27735,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1243,Erdmute,Riehl,(03166) 02450,Teilnehmende,Hoffmannstraße 14,Nürnberg,N,10670,2,inaktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1244,Darius,Schaaf,+49(0)7499 26505,Teilnehmende,Dobesstraße 15,Nürnberg,N,97131,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1245,Erica,Karge,0817291268,Teilnehmende,Hermannring 95,Nürnberg,N,82145,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1246,Robin,Fischer,+49(0)8889 50046,Teilnehmende,Hoffmannweg 56,Nürnberg,N,87770,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1247,Diethelm,Rogner,+49(0)2819651988,Teilnehmende,Löfflerplatz 0,Nürnberg,N,53528,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1248,Dietlind,Jähn,(07591) 668334,Teilnehmende,Kirstin-Pruschke-Straße 5,Nürnberg,N,79216,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1249,Ferdinand,Lübs,(04980) 23971,Teilnehmende,Jopichring 261,Nürnberg,N,39246,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1250,Heinz-Georg,Hande,04541754055,Teilnehmende,Köhlerweg 6/1,Nürnberg,N,62354,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1251,Britta,Holt,(00409) 05861,Teilnehmende,Dietlinde-Köster-Weg 3/1,Nürnberg,N,47420,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1252,Meike,Stolze,+49(0)2106117728,Teilnehmende,Dussen vanallee 71,Nürnberg,N,53261,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1253,Mechthild,Biggen,+49(0) 910702673,Teilnehmende,Bolzmannweg 259,Leipzig,L,45109,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:11
+1254,Willfried,Hölzenbecher,07810 359402,Teilnehmende,Heidrichallee 9,Nürnberg,N,69279,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1255,Mirco,Ortmann,+49(0)6073 927391,Teilnehmende,Försterplatz 97,Nürnberg,N,74459,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:06
+1256,Stefania,Schomber,+49(0)2312 490897,Teilnehmende,Henkgasse 7,Nürnberg,N,94923,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1257,Evelyn,Schaaf,(04188) 87601,Teilnehmende,Caroline-Lindner-Straße 643,Nürnberg,N,62826,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1258,Hans Josef,Wulff,03760 940741,Teilnehmende,Eveline-Rogge-Allee 2/6,Nürnberg,N,12359,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:06
+1259,Josefa,Etzold,0236976020,Teilnehmende,Weimerring 1/1,Erfurt,EF,15264,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1260,Magrit,Ruppert,02554245197,Teilnehmende,Maximilian-Langern-Straße 50,Erfurt,EF,17646,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1261,Anne-Marie,Stiffel,(08945) 767857,Teilnehmende,Steuerweg 165,Erfurt,EF,56975,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1262,Karl-Jürgen,Beyer,07384384144,Teilnehmende,Süßebierplatz 4,Erfurt,EF,94170,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1263,Gordana,Pieper,+49(0)3808 012674,Teilnehmende,Ruppersbergerallee 19,Erfurt,EF,46448,2,inaktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1264,Detlev,Klemt,+49 (0) 2077 482484,Teilnehmende,Dimitri-Zirme-Straße 4/4,Erfurt,EF,72484,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1265,Nicole,Trüb,(08049) 761631,Teilnehmende,Krokerstraße 444,Erfurt,EF,10804,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1266,Fritz,Langern,04744 650972,Teilnehmende,Kathleen-Wernecke-Gasse 0,Erfurt,EF,53066,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1267,Elfie,Zahn,(03060) 538127,Teilnehmende,Scheibering 2/3,Erfurt,EF,35228,2,inaktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1268,Otmar,Eberhardt,+49(0)8415 37074,Teilnehmende,Joseph-Dussen van-Allee 1,Erfurt,EF,68027,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1269,Martha,Schweitzer,+49(0)1314 268414,Teilnehmende,Löfflerstr. 09,Erfurt,EF,42365,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1270,Birger,Fliegner,(06804) 13611,Teilnehmende,Wernerstr. 8,Erfurt,EF,92149,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1271,Patricia,Preiß,0868837099,Teilnehmende,Gierschnerallee 985,Erfurt,EF,46285,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1272,Jorge,Peukert,+49(0)0341 90370,Teilnehmende,Weimerstr. 44,Erfurt,EF,23101,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1273,Faruk,Kranz,06720500069,Teilnehmende,Margarethe-van der Dussen-Weg 2/9,Erfurt,EF,59590,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1274,Erika,Karz,+49(0)8130 373856,Teilnehmende,Hentschelgasse 66,Erfurt,EF,49257,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1275,Hilmar,Junck,04411 734617,Teilnehmende,Gudestr. 17,Freiburg,FR,86061,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:10
+1276,Wolfgang,Ehlert,0041559522,Teilnehmende,Häringstr. 919,Erfurt,EF,89953,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1277,Mathias,Eberth,+49(0)1909062622,Teilnehmende,Lara-Werner-Platz 2,Erfurt,EF,61606,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1278,Bartholomäus,Baum,(09043) 601948,Teilnehmende,Frederik-Trüb-Gasse 9,Erfurt,EF,41292,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1279,Theodoros,Trapp,05874423118,Teilnehmende,Kranzplatz 8/8,Dresden,DD,82129,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1280,Samira,Budig,02633 76683,Teilnehmende,Nikolai-Jacob-Weg 1,Dresden,DD,09782,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1281,Felicia,Kambs,+49(0)8680 98369,Teilnehmende,Harloffstraße 671,Dresden,DD,13236,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1282,Berthold,Scholl,06132 508456,Teilnehmende,Anatoli-Ebert-Ring 4/2,Dresden,DD,54975,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1283,Tülay,Bonbach,(05705) 986032,Teilnehmende,Schustergasse 370,Dresden,DD,96023,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1284,Sophia,Klapp,+49 (0) 2041 926873,Teilnehmende,Henri-Schulz-Weg 392,Dresden,DD,34737,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1285,Christl,Gunpf,+49 (0) 4170 265946,Teilnehmende,Walther-Mende-Gasse 4,Dresden,DD,71264,2,inaktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1286,Frida,Hübel,(06445) 268657,Teilnehmende,Hermannallee 510,Dresden,DD,51281,2,inaktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1287,Herrmann,Junk,0557998721,Teilnehmende,Peggy-Ullmann-Weg 8,Dresden,DD,39782,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1288,Lorenz,Christoph,05333 764565,Teilnehmende,Harri-Karge-Straße 4,Dresden,DD,42215,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1289,Willibert,Pechel,09767989651,Teilnehmende,Killerallee 791,Dresden,DD,22244,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:07
+1290,Arnfried,Stumpf,+49(0)3673 729099,Teilnehmende,Hendriksplatz 389,Dresden,DD,57591,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:07
+1291,Metin,Trüb,(03521) 53654,Teilnehmende,Gunpfallee 42,Dresden,DD,21785,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1292,Adelbert,Gerlach,05828001031,Teilnehmende,Kuhlstraße 7,Dresden,DD,50062,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1293,Christof,Mangold,+49(0)6481 24266,Teilnehmende,Hamannweg 892,Dresden,DD,08381,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1294,Hendrik,Dussen van,0547354232,Teilnehmende,Hänelplatz 24,Dresden,DD,88393,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1295,Clara,Dörschner,05635 56705,Teilnehmende,Stefan-Schottin-Ring 7,Dresden,DD,89534,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1296,Fabienne,Vollbrecht,07219 820493,Teilnehmende,Löchelring 067,Dresden,DD,62050,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1297,Dörthe,Beier,+49(0) 086421539,Teilnehmende,Klaus-Beyer-Ring 86,Dresden,DD,22545,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1298,Gerta,Mies,+49 (0) 3012 140142,Teilnehmende,Hethurstraße 5,Dresden,DD,15104,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1299,Thaddäus,Putz,05954 065434,Teilnehmende,Meyerplatz 2,Hannover,H,52244,2,inaktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1300,Franka,Blümel,(01621) 77747,Teilnehmende,Dehmelweg 708,Hannover,H,16989,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1301,Karl-Ernst,Lachmann,09429765698,Teilnehmende,Meike-Trupp-Allee 3,Hannover,H,34375,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1302,Richard,Ernst,02053 69616,Teilnehmende,Casparring 510,Hannover,H,14006,2,inaktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1303,Riza,auch Schlauchin,+49(0) 927452645,Teilnehmende,Heinrich-Liebelt-Ring 043,Hannover,H,72170,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1304,Louis,Speer,+49(0)0856814813,Teilnehmende,Arnfried-Pärtzelt-Allee 4/4,Hannover,H,75698,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1305,Irene,Weitzel,+49(0)6892 74393,Teilnehmende,Klemtplatz 623,Hannover,H,81950,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1306,Hans-Jörg,Bender,+49(0)4881 20969,Teilnehmende,Vogtallee 8,Hannover,H,82926,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1307,Irmtraud,Scholz,(06736) 625694,Teilnehmende,Annette-Gorlitz-Allee 156,Hannover,H,07825,2,inaktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1308,Siegrid,Zirme,00186 547256,Teilnehmende,Pölitzring 2,Hannover,H,42611,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1309,Friedlinde,Pölitz,+49(0)3745215233,Teilnehmende,Sebastian-Trub-Weg 00,Hannover,H,78073,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1310,Denny,Scholz,+49 (0) 1302 391276,Teilnehmende,Loosring 10,Hannover,H,16639,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1311,Karl-Georg,Hornig,0988202677,Teilnehmende,Ilse-Kraus-Straße 4,Hannover,H,69267,2,inaktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1312,Jaroslaw,Wähner,04964 89910,Teilnehmende,Hertha-Geißler-Straße 2,Hannover,H,37521,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1313,Nancy,Bolander,+49(0)3571 34806,Teilnehmende,Schmiedtstraße 9,Hannover,H,91339,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1314,Barbara,Börner,+49(0)0352 08114,Teilnehmende,Lachmannallee 0/7,Hannover,H,73673,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1315,Simona,Hethur,+49(0)2950 774989,Teilnehmende,Scholtzstr. 1/7,Hannover,H,31868,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1316,Cäcilie,Striebitz,+49(0) 476349432,Teilnehmende,Hartmannweg 1,Hannover,H,97293,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1317,Ina,Kaul,+49(0) 346404215,Teilnehmende,Gumprichplatz 66,Hannover,H,06222,2,inaktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1318,Kasimir,Zorbach,(06888) 82865,Teilnehmende,Donald-Ehlert-Straße 2,Hannover,H,75825,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1319,Tülay,Schuchhardt,+49(0)0501563914,Teilnehmende,Ritterstraße 271,Rostock,HR,07197,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:08
+1320,Tomasz,Ehlert,+49(0)1223 422340,Teilnehmende,Nohlmansweg 9/4,Rostock,HR,21103,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1321,Adeline,Kühnert,04256 247024,Teilnehmende,Gotthilf-Becker-Straße 502,Rostock,HR,07227,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1322,Alexandros,Rosemann,+49(0) 107954150,Teilnehmende,Gerlachring 16,Rostock,HR,93997,2,inaktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1323,Guido,Hartung,05191 404783,Teilnehmende,Maren-Killer-Ring 5/3,Rostock,HR,89957,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:08
+1324,Niklas,Heydrich,00484 948896,Teilnehmende,Michael-Seifert-Weg 409,Rostock,HR,03684,2,inaktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1325,Monja,Tschentscher,(00080) 90346,Teilnehmende,Stahrweg 0,Rostock,HR,41773,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1326,Anke,Hörle,+49 (0) 5656 783122,Teilnehmende,Bernadette-Bähr-Allee 86,Rostock,HR,38120,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1327,Balthasar,Röhricht,0289103965,Teilnehmende,Gertzgasse 2/3,Rostock,HR,91991,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1328,Mahmoud,Scholtz,+49(0) 078414028,Teilnehmende,Karl-Dieter-Barth-Weg 56,Rostock,HR,59109,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1329,Anna-Maria,Lübs,06046 79589,Teilnehmende,Roggering 918,Rostock,HR,41454,2,inaktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1330,Roy,Kaul,08042 61455,Teilnehmende,Ilias-Wesack-Allee 7,Rostock,HR,10033,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1331,Marlis,Gunpf,00512 24194,Teilnehmende,Barkholzring 72,Rostock,HR,48805,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1332,Roswita,Binner,04015849422,Teilnehmende,Hentschelstraße 0/3,Rostock,HR,43831,2,inaktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1333,Toralf,Haase,(00022) 84705,Teilnehmende,Heringallee 256,Rostock,HR,89400,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1334,Erika,Bohlander,09043611946,Teilnehmende,Marcel-Stahr-Gasse 91,Rostock,HR,58111,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1335,Milena,Lindner,+49(0)7457 392057,Teilnehmende,Ottomar-Säuberlich-Ring 277,Rostock,HR,65353,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1336,Harry,Albers,(07053) 11406,Teilnehmende,Seifertweg 32,Rostock,HR,83110,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1337,Senol,Täsche,07555680875,Teilnehmende,Adrian-Siering-Platz 78,Rostock,HR,72948,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1338,Niko,Wilms,02944351954,Teilnehmende,Hornigplatz 863,Rostock,HR,54956,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1339,Dusan,Klotz,01608 70298,Teilnehmende,Kohlweg 051,Köln,K,49795,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1340,Marjan,Margraf,0358084779,Teilnehmende,Hartmannallee 5,Köln,K,11708,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1341,Andrzej,Ladeck,+49(0)8391 661825,Teilnehmende,Vinko-Ackermann-Allee 76,Köln,K,05240,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1342,Klemens,Klemt,06795652869,Teilnehmende,Netteplatz 197,Köln,K,63448,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1343,Gisa,Peukert,+49(0)8039117995,Teilnehmende,Scholtzstr. 56,Köln,K,78602,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1344,Helga,Heintze,(03572) 49134,Teilnehmende,Tomasz-Holsten-Ring 387,Köln,K,46518,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1345,Krista,Briemer,+49(0)8305 618027,Teilnehmende,Scheibeweg 606,Köln,K,33920,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1346,Luisa,Tröst,(06157) 726067,Teilnehmende,Wellerweg 489,Köln,K,25700,2,inaktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1347,Susann,Scholz,+49(0)9408 606878,Teilnehmende,Dorota-Sölzer-Ring 5/5,Köln,K,68028,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1348,Mechthild,Seifert,+49(0)0666575786,Teilnehmende,Jacobplatz 399,Köln,K,92430,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1349,Georgia,Salz,04510 57125,Teilnehmende,Katja-Etzler-Platz 0/2,Köln,K,42972,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1350,Yasemin,Wieloch,08677 645187,Teilnehmende,Herwig-Gnatz-Ring 23,Köln,K,63506,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1351,Lydia,Schottin,+49 (0) 7460 839311,Teilnehmende,Barthgasse 949,Köln,K,61640,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1352,Aynur,Beier,(06226) 376307,Teilnehmende,Mia-Harloff-Ring 10,Köln,K,65575,2,inaktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1353,Traudel,Scheibe,00037 68197,Teilnehmende,Ingolf-Börner-Straße 0/2,Köln,K,25394,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1354,Anna-Lena,Meyer,05288171802,Teilnehmende,Weimerring 1/1,Köln,K,31365,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1355,Ingrid,Lübs,03076 326140,Teilnehmende,Wirthstraße 3/4,Köln,K,21947,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1356,Edelbert,Ritter,07681 779318,Teilnehmende,Gutknechtallee 9,Köln,K,74620,2,inaktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1357,Kathi,Gierschner,+49(0) 426243894,Teilnehmende,Hüseyin-Koch II-Gasse 69,Köln,K,53505,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1358,Matteo,Fritsch,06294 798323,Teilnehmende,Notburga-Naser-Gasse 0/8,Köln,K,32902,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1359,Georgios,Schmiedecke,+49(0)6933 65194,Teilnehmende,Patrik-Misicher-Gasse 4,Freiburg,FR,52309,2,inaktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:08,2025-04-30 15:43:09
+1360,Rosl,Jungfer,0765042123,Teilnehmende,Bolnbachring 9,Freiburg,FR,40186,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:08,2025-04-30 15:43:09
+1361,Karl-Ludwig,Scheibe,08510 030714,Teilnehmende,Niemeierstraße 16,Freiburg,FR,96322,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1362,Waltrud,Striebitz,+49(0)1694 723942,Teilnehmende,Abdul-Steinberg-Straße 614,Freiburg,FR,55827,2,inaktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1363,Eckhardt,Heintze,(00455) 19011,Teilnehmende,Arzu-Jähn-Platz 39,Freiburg,FR,80594,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1364,Irmtraut,Dörschner,+49(0)5440 263663,Teilnehmende,Beckmannstr. 4/1,Freiburg,FR,03311,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1365,Klaus-Jürgen,Schmiedecke,+49(0) 576418923,Teilnehmende,Gernot-Heuser-Gasse 2/5,Freiburg,FR,21263,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1366,Wolf-Dietrich,Butte,0710750558,Teilnehmende,Benjamin-Seifert-Gasse 8,Freiburg,FR,41263,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1367,Sebastiano,Neureuther,(09569) 40611,Teilnehmende,Huhnstraße 694,Freiburg,FR,19997,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1368,Danilo,Möchlichen,+49(0)0392084047,Teilnehmende,Gehringerstraße 697,Freiburg,FR,12968,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1369,Reinhild,Eimer,+49(0)4824 55989,Teilnehmende,Selma-Weihmann-Ring 0,Freiburg,FR,84527,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1370,Samira,Seidel,+49(0)9874 01796,Teilnehmende,Inka-Hering-Allee 5/6,Freiburg,FR,25327,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1371,Gabriele,Schleich,05869038322,Teilnehmende,Juliane-Wulf-Allee 930,Freiburg,FR,40494,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1372,Serpil,Weiß,01463 83509,Teilnehmende,Antonios-Ditschlerin-Gasse 8/8,Freiburg,FR,83388,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1373,Hans-Christian,Wernecke,03828521054,Teilnehmende,Fritschring 2/7,Freiburg,FR,77193,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1374,Annaliese,Gnatz,(07832) 40427,Teilnehmende,Jockelstr. 95,Freiburg,FR,67944,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1375,Frank,Bohlander,03036 99852,Teilnehmende,Gröttnerstr. 7,Freiburg,FR,97546,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1376,Ilija,Haering,0526511998,Teilnehmende,Henckplatz 225,Freiburg,FR,28183,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1377,Margit,Winkler,(00504) 15689,Teilnehmende,Köstergasse 506,Dortmund,DO,43706,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1378,Calogero,Hecker,0468452147,Teilnehmende,Margot-Hendriks-Weg 781,Dortmund,DO,20653,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1379,Camilla,Hiller,+49(0)1248 48776,Teilnehmende,Ruppersbergerweg 35,Dortmund,DO,07828,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1380,Freia,Beckmann,08429098400,Teilnehmende,Salzallee 0/8,Dortmund,DO,93189,2,inaktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1381,Laila,Hahn,(02097) 36238,Teilnehmende,Mesut-Scheibe-Gasse 70,Dortmund,DO,96815,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1382,Cristina,Jungfer,08139709437,Teilnehmende,Evangelia-Zorbach-Gasse 95,Dortmund,DO,57622,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1383,Paulo,Bolnbach,+49(0)2768 362787,Teilnehmende,Klemtweg 2,Dortmund,DO,96965,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1384,Stefanie,Schweitzer,+49(0)0484290614,Teilnehmende,Johannstraße 4/0,Dortmund,DO,11771,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1385,Mike,Dörschner,+49(0)6154702659,Teilnehmende,Davidsring 696,Dortmund,DO,82546,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1386,Elmar,Ditschlerin,+49(0)3080 36709,Teilnehmende,Immo-Eimer-Weg 99,Dortmund,DO,85960,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1387,Erhardt,Wirth,00019 528579,Teilnehmende,Thorsten-Geisel-Ring 574,Dortmund,DO,93543,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1388,Miriam,Scholz,+49(0) 335241849,Teilnehmende,Mangoldstraße 6/8,Dortmund,DO,05060,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1389,Carla,Weller,03194347334,Teilnehmende,Eberhard-Jacobi Jäckel-Gasse 478,Dortmund,DO,13897,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1390,Klara,Kaul,(08548) 36611,Teilnehmende,Blümelplatz 9/4,Dortmund,DO,36923,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1391,Charlotte,Rose,01187844335,Teilnehmende,Jungferstr. 290,Dortmund,DO,08635,2,inaktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1392,Heidrun,Johann,+49 (0) 0349 090728,Teilnehmende,Fechnerallee 30,Dortmund,DO,52325,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1393,Aynur,Söding,0525541819,Teilnehmende,Christoph-Caspar-Straße 9/2,Dortmund,DO,18409,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1394,Thea,Heuser,+49(0)1462745417,Teilnehmende,Hofmannweg 0/5,Dortmund,DO,91623,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1395,Reimund,Loos,+49(0) 006294834,Teilnehmende,Victoria-Stroh-Straße 6/2,Dortmund,DO,12056,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1396,Birgit,Carsten,00706180972,Teilnehmende,Stavros-Ehlert-Allee 1/1,Potsdam,P,36404,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1397,Ahmed,Zahn,(08653) 900101,Teilnehmende,Erika-Lindner-Gasse 3/7,Potsdam,P,56863,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1398,Ismet,Mohaupt,+49(0) 816089387,Teilnehmende,Sagergasse 7/8,Potsdam,P,46646,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1399,Damaris,Johann,01936 33559,Teilnehmende,Guntram-Stroh-Straße 9/2,Potsdam,P,93218,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:10
+1400,Edeltraud,Heser,04980 816515,Teilnehmende,Wohlgemutplatz 9,Potsdam,P,03523,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:10
+1401,Berend,Schottin,0346729980,Teilnehmende,Peter-Kraus-Weg 52,Potsdam,P,81263,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1402,Hanife,Rädel,+49 (0) 7404 964634,Teilnehmende,Juliana-Hornig-Gasse 26,Potsdam,P,72791,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1403,Geza,Trapp,02004 722999,Teilnehmende,Ullmannplatz 0,Potsdam,P,25680,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1404,Kristin,Jessel,05107 01904,Teilnehmende,Sibylle-Beyer-Ring 015,Potsdam,P,05088,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1405,Henri,Fechner,+49(0)3526 183611,Teilnehmende,Heuserstraße 6/2,Potsdam,P,61639,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1406,Laurenz,Reichmann,02989 431094,Teilnehmende,Hans-Gerd-Rust-Ring 270,Potsdam,P,36546,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1407,Mareike,Barkholz,04170336896,Teilnehmende,Mareike-Börner-Ring 0/3,Potsdam,P,58969,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1408,Klaus Peter,Caspar,+49(0)7427 839603,Teilnehmende,Dussen vangasse 143,Potsdam,P,72928,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1409,Edeltraut,Kensy,+49(0)7307 35455,Teilnehmende,Ditschleringasse 0,Potsdam,P,15330,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1410,Hans-Heinrich,Koch,+49 (0) 0533 340811,Teilnehmende,Christophstraße 2,Potsdam,P,25811,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1411,Anka,Löwer,+49(0)0681 92426,Teilnehmende,Solveig-Mentzel-Weg 84,Potsdam,P,14946,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1412,Imre,Ditschlerin,+49(0)1568789124,Teilnehmende,Dieter-Tschentscher-Gasse 880,Potsdam,P,51321,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1413,Rosalia,Hermann,05054 746666,Teilnehmende,Gotthardring 2/1,Potsdam,P,66438,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1414,Anne-Kathrin,Krause,+49 (0) 2920 147954,Teilnehmende,Kruschwitzring 7/3,Potsdam,P,84180,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1415,Joana,Graf,(08210) 112805,Teilnehmende,Sigmar-Renner-Allee 3,Potsdam,P,96502,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1416,Ottomar,Förster,+49(0)7568 160748,Teilnehmende,Karolin-Heydrich-Allee 1/4,Leipzig,L,45136,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1417,Melitta,Klemt,+49(0)7127807444,Teilnehmende,Dominic-Wirth-Weg 89,Leipzig,L,59164,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1418,Stilla,Sager,04116766267,Teilnehmende,Stiffelweg 522,Leipzig,L,66529,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1419,Ruben,Ackermann,03603041782,Teilnehmende,Krebsring 1/1,Leipzig,L,62533,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1420,Theodor,Linke,+49(0)1212 59209,Teilnehmende,Eberhardtring 77,Leipzig,L,06848,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1421,Priska,Schenk,+49(0)7223 070816,Teilnehmende,Stolzeallee 3/0,Leipzig,L,83670,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1422,Justine,Schuchhardt,(00982) 63216,Teilnehmende,Susana-Köster-Ring 15,Leipzig,L,02706,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1423,Margrit,Ring,08001 42862,Teilnehmende,Simon-Langern-Gasse 300,Leipzig,L,05984,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1424,Tilmann,Meister,+49(0)6198802951,Teilnehmende,Holstenstraße 58,Leipzig,L,95949,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1425,Henner,Staude,+49(0)4471 65478,Teilnehmende,Dowergstraße 111,Leipzig,L,88920,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1426,Christa-Maria,Wagenknecht,+49(0) 918423651,Teilnehmende,Marcel-auch Schlauchin-Allee 160,Leipzig,L,35459,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1427,Romy,Dussen van,(05164) 591282,Teilnehmende,Augustin-Davids-Ring 5/7,Leipzig,L,29809,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1428,Arnd,Dobes,00379 396942,Teilnehmende,Grafallee 2,Leipzig,L,41842,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1429,Dierk,Rust,01484 88530,Teilnehmende,Nuran-Wernecke-Ring 21,Leipzig,L,31103,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1430,Gülsen,Thies,09923 43449,Teilnehmende,Isolde-Bohnbach-Platz 308,Leipzig,L,36569,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1431,Vitali,Jopich,+49(0)4339 298376,Teilnehmende,Natalia-Heydrich-Gasse 88,Leipzig,L,48971,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1432,Daria,Rudolph,+49(0)3632456704,Teilnehmende,Thorben-Binner-Platz 4,Leipzig,L,64310,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1433,Karoline,Dörr,+49(0) 525992591,Teilnehmende,Hedy-Löwer-Straße 703,Leipzig,L,20487,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1434,Janna,Ritter,(01906) 797547,Teilnehmende,Franka-Flantz-Gasse 94,Leipzig,L,21898,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1435,Beata,Steinberg,05949 015874,Teilnehmende,Czeslaw-Nohlmans-Weg 7,Mannheim,MA,98723,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1436,Matteo,Boucsein,05838862412,Teilnehmende,Uwe-Salz-Weg 8,Mannheim,MA,62079,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1437,Dieter,Heidrich,09439 679972,Teilnehmende,Tlustekallee 8,Mannheim,MA,81832,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1438,Albert,Lindau,+49(0)2838 308577,Teilnehmende,Regine-Rädel-Gasse 0/6,Mannheim,MA,66886,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1439,Sybille,Hörle,(08171) 067890,Teilnehmende,Margrafstr. 300,Mannheim,MA,41763,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1440,Wolf-Dieter,Zahn,+49(0) 657713295,Teilnehmende,Truballee 677,Mannheim,MA,97360,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1441,Dolores,Hellwig,+49(0)3630 42051,Teilnehmende,Gudeplatz 0/9,Mannheim,MA,38011,2,inaktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1442,Hans-Herbert,Söding,+49(0) 148158949,Teilnehmende,Amanda-Biggen-Weg 900,Mainz,MZ,81716,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1443,Maik,Reuter,+49(0)8384247583,Teilnehmende,Astrid-Eberhardt-Allee 0,Mannheim,MA,19288,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1444,Korbinian,Jüttner,0039535029,Teilnehmende,Helene-Lachmann-Platz 169,Mannheim,MA,32566,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1445,Gunda,Rosenow,(03816) 726228,Teilnehmende,Roswita-Drubin-Straße 513,Mannheim,MA,73235,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1446,Hans-Gerd,Neureuther,(06900) 90781,Teilnehmende,Cecilia-Stiffel-Ring 547,Mannheim,MA,38426,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:11
+1447,Juliana,Etzler,+49(0)1191 208195,Teilnehmende,Fabian-Klapp-Allee 2/8,Mannheim,MA,69907,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:11
+1448,Hans Georg,Hartmann,+49(0) 023422657,Teilnehmende,Heckerring 802,Mannheim,MA,22090,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1449,Giovanna,Pruschke,+49(0)4498 027454,Teilnehmende,Ruppersbergergasse 6,Mannheim,MA,92820,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1450,Raymond,Henck,+49(0)0303 99319,Teilnehmende,Södingallee 12,Mannheim,MA,46740,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1451,Ellinor,Sölzer,+49(0)2775 873185,Teilnehmende,Therese-Henk-Gasse 54,Mannheim,MA,93544,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1452,Attila,Caspar,(04036) 256824,Teilnehmende,Hölzenbecherweg 498,Mannheim,MA,99695,2,inaktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1453,Matteo,Dobes,09293 61220,Teilnehmende,Margrafplatz 771,Mannheim,MA,18736,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1454,Ignatz,Striebitz,+49 (0) 5955 362520,Teilnehmende,Olga-Krause-Weg 1,Mannheim,MA,48257,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1455,Carl,Hande,(00824) 750670,Teilnehmende,Frankestraße 251,Mainz,MZ,34489,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1456,Hans Josef,van der Dussen,(05658) 734069,Teilnehmende,Wilhelmine-Scheibe-Allee 8/0,Mainz,MZ,38123,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1457,Hans-Jörg,Mosemann,+49(0) 408484326,Teilnehmende,Killerplatz 860,Mainz,MZ,70421,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1458,Susana,Buchholz,(04931) 800157,Teilnehmende,Sibylle-Junck-Allee 161,Mainz,MZ,21421,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1459,Artur,Meister,+49 (0) 8958 892152,Teilnehmende,Ritterplatz 058,Mainz,MZ,05138,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1460,Anna-Lena,Dörr,+49(0)3258 417142,Teilnehmende,Boucseinplatz 75,Mainz,MZ,83750,2,inaktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1461,Sylke,Hertrampf,+49 (0) 6470 914251,Teilnehmende,Wolf-Carsten-Gasse 4/7,Mainz,MZ,79373,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1462,Alina,Becker,+49(0) 802487185,Teilnehmende,Herrmannplatz 71,Mainz,MZ,79849,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1463,Rosalia,Ullrich,03349 720463,Teilnehmende,Holstenplatz 8/9,Mainz,MZ,40878,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1464,Wilma,Gunpf,+49(0)1154 729620,Teilnehmende,Niemeierstraße 2/7,Mainz,MZ,52580,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1465,Eckehard,Stumpf,05680 63764,Teilnehmende,Enno-Staude-Gasse 5/4,Mainz,MZ,27394,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1466,Jakob,Mude,+49(0)5526 758454,Teilnehmende,Wellerallee 5/5,Mainz,MZ,63178,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1467,Stefani,Tschentscher,(05340) 416458,Teilnehmende,Hans-Ludwig-Juncken-Straße 500,Mainz,MZ,86649,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1468,Kornelius,Barth,06550 48495,Teilnehmende,Justus-Jacob-Gasse 07,Mainz,MZ,79176,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1469,Zeki,Löffler,(02628) 817656,Teilnehmende,Necati-Trub-Allee 983,Mainz,MZ,40872,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1470,Vadim,Hendriks,02254 533814,Teilnehmende,Donata-Trüb-Ring 255,Mainz,MZ,12137,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1471,H.-Dieter,Klotz,+49(0) 260404376,Teilnehmende,Waldtraut-Junk-Allee 612,Mainz,MZ,94139,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1472,Petra,Förster,+49(0)2168803559,Teilnehmende,Sepp-Berger-Weg 954,Mainz,MZ,63718,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1473,Annamaria,Juncken,0411223376,Teilnehmende,Kargestr. 77,Mainz,MZ,19429,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1474,Adolfine,Karz,+49(0)5916 59017,Teilnehmende,Hornichweg 782,Karlsruhe,KA,83298,2,inaktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1475,Edeltraud,Pechel,0362256962,Teilnehmende,Huhngasse 072,Karlsruhe,KA,02289,2,inaktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1476,Karl-Ludwig,Gorlitz,+49(0) 781531702,Teilnehmende,Darko-Atzler-Straße 0/3,Karlsruhe,KA,98511,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1477,Anthony,Wesack,+49 (0) 5575 606492,Teilnehmende,Truppplatz 8/2,Karlsruhe,KA,32199,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1478,Marit,Weller,+49(0)1777 37369,Teilnehmende,Pieperstr. 8,Karlsruhe,KA,48575,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1479,Bozena,Schacht,+49(0) 558068547,Teilnehmende,Herrmannplatz 8/1,Karlsruhe,KA,38855,2,inaktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:12
+1480,Roberto,Stiffel,+49(0)9764796929,Teilnehmende,Henryk-Mies-Allee 4,Karlsruhe,KA,46472,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1481,Friederike,Thanel,(02393) 33763,Teilnehmende,Kühnertweg 2,Karlsruhe,KA,26473,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:12
+1482,Maik,Hahn,05218898630,Teilnehmende,Kreuselring 241,Karlsruhe,KA,26077,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:13
+1483,Jacek,Jäkel,+49(0)1743 325442,Teilnehmende,Klaus-Peter-Bender-Gasse 7,Karlsruhe,KA,35252,1,aktiv,5,IT14A,Informatik Klasse 14A,2025-04-29 12:23:09,2025-04-30 15:43:13
+1484,Gudula,Reising,+49(0)5744 42219,Teilnehmende,Vogtstr. 198,Karlsruhe,KA,22906,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:13
+1485,Marieluise,Harloff,+49(0)0877 094437,Teilnehmende,Maren-Scheibe-Weg 1,Karlsruhe,KA,81806,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:13
+1486,Rosel,Kuhl,06893 694453,Teilnehmende,Henning-Trupp-Weg 2,Karlsruhe,KA,93219,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:13
+1487,Friedlinde,Schenk,(09294) 57429,Teilnehmende,Sybille-Langern-Ring 3/0,Karlsruhe,KA,62465,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-29 12:23:09,2025-04-30 15:43:13
+1488,Winfried,Oderwald,+49(0)3318 99061,Teilnehmende,Bienstr. 733,Karlsruhe,KA,27819,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:13
+1489,Helmut,Kruschwitz,+49(0)8351 64048,Teilnehmende,Maren-Stolze-Allee 5/4,Karlsruhe,KA,70036,1,aktiv,4,BuHa13B,Buchhaltung Klasse 13B,2025-04-29 12:23:09,2025-04-30 15:43:13
+1490,Viktoria,Wähner,(05170) 38904,Teilnehmende,Antonios-Käster-Straße 629,Karlsruhe,KA,48292,1,aktiv,1,BuHa12A,Buchhaltung Klasse 12A,2025-04-29 12:23:09,2025-04-30 15:43:13
+1491,Inna,Harloff,+49(0) 391779331,Teilnehmende,Jacek-Weinhold-Platz 22,Karlsruhe,KA,19888,1,aktiv,8,IT15B,Informatik Klasse 15B,2025-04-29 12:23:09,2025-04-30 15:43:13
+1492,Laszlo,Scheel,05082882632,Teilnehmende,Etzlerstraße 217,Karlsruhe,KA,68566,1,aktiv,3,BuHa13A,Buchhaltung Klasse 13A,2025-04-29 12:23:09,2025-04-30 15:43:13
+1493,Ralph,Tintzmann,(06961) 397896,Teilnehmende,Etta-Bender-Straße 82,Hamburg,HH,76948,1,aktiv,6,IT14B,Informatik Klasse 14B,2025-04-30 11:37:33,2025-04-30 15:43:01
+1494,Dorina,Siering,+49 (0) 3658 584346,Teilnehmende,Elise-Putz-Allee 856,Hamburg,HH,14413,1,aktiv,2,BuHa12B,Buchhaltung Klasse 12B,2025-04-30 11:37:33,2025-04-30 15:43:01
+1495,Magrit,Rosenow,05432650388,Teilnehmende,Stiebitzallee 6,Hamburg,HH,86412,1,aktiv,7,IT15A,Informatik Klasse 15A,2025-04-30 15:43:01,2025-04-30 15:43:01
